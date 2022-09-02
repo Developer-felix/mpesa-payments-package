@@ -1,4 +1,7 @@
+License.txt
+README.md
 setup.py
+mpesa_payments/__init__.py
 mpesa_payments/mpesa_payments.py
 mpesa_payments/testing.py
 mpesa_payments.egg-info/PKG-INFO

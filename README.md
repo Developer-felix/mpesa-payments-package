@@ -12,7 +12,7 @@
       
 - step 2 : Pip Install The Library as bellow:
 
-        $ pip install mpesa_paymens 
+        $ pip install mpesa-payments 
 
 
 ### Usage
