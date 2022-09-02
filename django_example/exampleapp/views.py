@@ -23,14 +23,11 @@ def payments(request):
         phone = request.POST.get("phone")
         amount = request.POST.get("amount")
 
-        try:
-            mpesa.lipa_na_mpesa_online(
-                phone=phone, 
+        mpesa.lipa_na_mpesa_online(
+                phone_number=phone, 
                 amount= amount
                 )
-            return Response({"success": False, "status_code": 1,"message": "OK"})
+        return Response({"success": False, "status_code": 1,"message": "OK"})
         
-        except:
-            return Response({"success": True, "status_code": 1,"message": "Failure"})
-
+        
 

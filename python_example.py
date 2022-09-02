@@ -8,14 +8,14 @@ mpesa = MpesaPayments(
     "https://32fd-41-60-236-25.in.ngrok.io/payments/lnm/",
     "Sky Plus Softwares",
     "Sky Plus Softwares Description of C2B Payments"
-) 
+)
 
 """
 Call these function to make payments
 """
 
 print(mpesa.lipa_na_mpesa_online(
-    phone_number="25471771****",
+    phone_number="254717713943",
     amount=1
 ))
 print(mpesa.generate_passoword())
