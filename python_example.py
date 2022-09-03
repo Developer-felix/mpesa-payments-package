@@ -15,7 +15,7 @@ Call these function to make payments
 """
 
 print(mpesa.lipa_na_mpesa_online(
-    phone_number="254717713943",
+    phone_number="25471771****",
     amount=1
 ))
 print(mpesa.generate_passoword())
