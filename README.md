@@ -1,6 +1,7 @@
 
 ## Mpesa Payments (C2B, B2C) Package
 <img src="pypi.png" alt="PyPi Image" /> 
+https://pypi.org/project/mpesa-payments/ <br>
 
 - I have repeatedly created the same code while creating lipa na mpesa online payments systems. This is the write time to stop the code repeating on every projects that involves payments. I decided not to become selfish and also come up with these package for the new developers and also the python developers in the industries.
 
@@ -12,6 +13,7 @@
 - step 1 : Create Account On Daraja and have these details Bellow 
       
 - step 2 : Pip Install The Library as bellow:
+
 
         $ pip install mpesa-payments 
 
