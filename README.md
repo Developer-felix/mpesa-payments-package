@@ -25,7 +25,7 @@ Make sure you take these details from your .env files.
 
 
 ```
-from mpesa_paymens.mpesa_paymens import MpesaPayments
+from mpesa_payments.mpesa_paymens import MpesaPayments
 
 mpesa = MpesaPayments(
      "businessshortCode",
@@ -50,7 +50,7 @@ mpesa.lipa_na_mpesa_online(
 ## Example
 
 ```
-from mpesa_paymens.mpesa_paymens import MpesaPayments
+from mpesa_payments.mpesa_paymens import MpesaPayments
 
 mpesa = MpesaPayments(
      "174379",
